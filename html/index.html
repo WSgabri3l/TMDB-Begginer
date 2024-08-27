@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css"></link>
+    <link rel="stylesheet" href="../css/nav.css"></link>
+    <link rel="stylesheet" href="../css/pagination.css"></link>
+    <link rel="stylesheet" href="../css/nav-header.css"></link>
+   
+    <!--JavaScript-->
+    <script src="../javascript/script.js" defer></script>
+    <script src="../javascript/pagination.js" defer></script>
+    <script src="../javascript/filter.js" defer></script>
+
+
+    <title>Pagina Inicial</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="nav-container">
+            <a href="../html/index.html"><img id="nav-logo" src="../images/logo.png"></a>
+            <div class="nav-content">
+                <nav>
+                    <ul class="nav-options">
+                        <li id="header-li-a"><a href="index.html" id="header-li-a">Movies</a></li>
+                        <li id="header-li-a"><a href="index.html" id="header-li-a">Series</a></li>
+                        <li id="header-li-a"><a href="https://github.com/WSgabri3l" id="header-li-a" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="sidebar">
+
+        <div class="logo-container">
+            <div class="logo-content">
+                <div class="logo-image-field">
+                    <img alt="Logo Image" src="../images/movie-idk.png" class="logo-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-field">
+
+            <div class="filter-container">
+                <div class="filter-content">
+                    <nav class="filter-content-options">
+                        <li class="filter-src" id="link-popular-movies"><a class="filter-src">Popular Movies</a></li>
+                        <li class="filter-src" id="link-most-rated-movies"><a class="filter-src">Top Rated Movies</a></li>
+                        <li class="filter-src" id="link-now-playing-movies"><a class="filter-src">Now Playing Movies</a></li>
+                        <li class="filter-src" id="link-soon-movies"><a class="filter-src">Upcoming Movies</a></li>
+                    </nav>
+                </div>
+            </div>
+    
+            <div class="filter-container">
+                <div class="filter-content">
+                    <nav class="filter-content-options">
+                        <li class="filter-src" id="link-popular-series"><a class="filter-src">Popular Series</a></li>
+                        <li class="filter-src" id="link-top-rated-series"><a class="filter-src">Top Rated Series</a></li>
+                        <li class="filter-src" id="link-airing-today-series"><a class="filter-src">Airing Today Series</a></li>
+                        <li class="filter-src" id="link-on-the-air-series"><a class="filter-src">On the air</a></li>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        
+
+    </section>
+
+    <main class="main">
+        <div class="main-container">
+            <div class="main-content">
+                <div class="main-posters">
+
+                    <!-- Aqui dentro ficarao as imagens dos posters-->
+
+                </div>
+                <div class="pagination-container">
+
+                    <div class="pagination">
+                        <button class="button-prev" onclick="previousButton()">Prev</button>
+    
+                        <ul class="pagination-numbers">
+                            <li class="nums active" value="1" onclick="changeNume()">1</li>
+                            <li class="nums" value="2" onclick="changeNume()">2</li>
+                            <li class="nums" value="3" onclick="changeNume()">3</li>
+                            <li class="nums" value="4" onclick="changeNume()">4</li>
+                            <li class="nums" value="5" onclick="changeNume()">5</li>
+                            <li class="nums" value="6" onclick="changeNume()">6</li>
+                            <li class="nums" value="7" onclick="changeNume()">7</li>
+                            <li class="nums" value="8" onclick="changeNume()">8</li>
+                            <li class="nums" value="9" onclick="changeNume()">9</li>
+                        </ul>
+    
+                        <button class="button-next" onclick="nextButton()">Next</button>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

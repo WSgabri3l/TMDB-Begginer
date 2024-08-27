@@ -1,0 +1,55 @@
+/*Nav Configuracao Logo*/
+
+#nav-logo{
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.nav-container{
+    width: 100%;
+    height: 60px;
+    background-color: #717343;
+    display: flex;
+}
+
+/*Nav Configuracao Links*/
+
+/*-----------------------------------------*/
+a, li {
+    color: #000;
+    text-decoration: none;
+}
+/*-----------------------------------------*/
+
+a{
+    cursor: pointer;
+}
+
+.nav-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-options{
+    list-style: none;
+}
+
+.nav-options li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.nav-options li, a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav-options li a:hover{
+    color: #000;
+}

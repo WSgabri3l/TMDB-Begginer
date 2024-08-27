@@ -1,0 +1,40 @@
+.poster-rate-div{
+    margin-top: 5%;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-circle svg{
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+}
+
+circle{
+    fill: none;
+    stroke: #000000;
+    stroke-width: 10;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #717343;
+}
+
+circle:nth-child(2){
+    stroke: #fff;
+    transition: stroke-dashoffset 0.08s;
+}
+
+.number{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-top: 10px;
+    padding: 80px;
+}
